@@ -18,8 +18,10 @@
 }
 .posts-wrapper h1 {
   margin: 20px 0px 5px;
-  font-family: 'Titan One', cursive;
+  font-family: 'Merriweather', serif;
   font-style: italic;
+  border-bottom: 2px solid #f9f9f9;
+  text-align: center;
 }
 @media (max-width: $container-width) {
   .container {
