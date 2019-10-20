@@ -8,7 +8,7 @@ google-ID: 'UA-112060364-2'
 
 menu:
 # - {name: 'Web Dev World', folder: 'pages', file: 'web-dev-world.html'}
-- {name: 'Stock Trading', folder: 'pages', file: 'random-thoughts.html'}
+- {name: 'Stock Market Learnings', folder: 'pages', file: 'stock-market-learnings.html'}
 - {name: 'Random Thoughts', folder: 'pages', file: 'random-thoughts.html'}
 - {name: 'Is It Weird?', folder: 'pages', file: 'is-it-weird.html'}
 - {name: 'Cheat Sheet', folder: 'pages', file: 'resources.html'}
