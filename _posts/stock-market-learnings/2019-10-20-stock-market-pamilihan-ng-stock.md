@@ -44,6 +44,8 @@ Ilan sa mga sikat na Online Broker sa Pilipinas ay ang mga sumusunod:
 + BDO Nomura
 + AAA Equities
 
+Marami pa ang rehistradong online broker sa Pilipinas. Ang mga nabanggit sa itaas ay ilan lamang sa kanila.
+
 ## Paano kumita sa Stock Market?
 
 Ang malaking tanong, kung ang Stock Market ay parang palengke paano ka dito makakapagpalago ng pera? 
