@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Leave, we are broken people."
-author: "Humanoid"
+author: "HeyJhun"
 categories: random-thoughts
 tags: [documentation,sample]
 image: leave-we-are-broken-people.jpg

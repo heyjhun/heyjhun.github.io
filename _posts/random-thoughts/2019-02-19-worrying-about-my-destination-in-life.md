@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Worrying About My Destination... in Life"
-author: "Humanoid"
+author: "HeyJhun"
 categories: random-thoughts
 tags: [documentation,sample]
 image: more-than-just-the-destination.jpg

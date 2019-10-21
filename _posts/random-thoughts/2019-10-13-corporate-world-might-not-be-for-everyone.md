@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Corporate world might not be for everyone, at least for me"
-author: "Humanoid"
+author: "HeyJhun"
 categories: random-thoughts
 tags: [documentation,sample]
 image: corporate-world-might-not-be-for-everyone.jpg

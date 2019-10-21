@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Wordpress Development Best Practices"
-author: "Humanoid"
+author: "HeyJhun"
 categories: web-dev-world
 tags: [documentation,sample]
 image: wordpress-development-best-practices.jpg
@@ -21,10 +21,12 @@ Some of the key takeaways which I somehow managed to remember are the following:
 
 5. Leverage CDN, Leverage caching
 
-6. Dev, test, live
+6. Dev Environment > Test > Live
 
-7. SDLC
+7. SDLC (Software Development Life Cycle)
 
 8. Do not just rely in installing plugins if you want to become a full stack Wordpress Developer.
 
+These are just basic rules or good practices that I remember which I think would really make sense when working as a Wordpress Developer. 
 
+If you want to dig more some of the best practices for wordpress development, the speaaker also left us a reference where we can find something useful. Just search on Google: Coding Standards Wordpress.

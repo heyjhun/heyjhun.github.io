@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dime Sized Light"
-author: "J10Percent"
+author: "Humanoid"
 categories: is-it-weird
 tags: [documentation,sample]
 image: dime-sized-light.jpg
