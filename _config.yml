@@ -15,7 +15,7 @@ sass:
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "HeyJhun"
-description:	       "A Personal Blog made via Jekyll. Just randomly sharing something."
+description:	       "Jhun is bored at work so he studied how Jekyll works. He finds it cool, so HeyJhun was born. A personal blog about some things he wants to share because sometimes it is not easy to find someone to talk to about certain topics. haha! This site is created with Jekyll by Jhun Agustin."
 author:              "Jhun Agustin"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
