@@ -25,6 +25,8 @@ I cannot blame him when he said that the person who wrote it is somehow inconsid
 
 He was still not ok when he was telling me this. I can see that he was a bit upset. This is like the first time he shared something a bit serious to me. If it was me, I may feel the same way. I think that it is not easy to be asked to leave in a place where you learned to enjoy the company of the people. He is telling me that he really like those people, they are fun to be with. However, he cannot tell me a name who can leave him that note. Maybe he is playing nice not to blame or point a finger on someone. At least, he is not angry or mad at someone, he is just upset with the situation.
 
-Maybe sooner or later, he would feel ok with this. Right now, he is just thinking that maybe this is the kind of push he needs to get to that concrete decision of finally leaving. He was still holding back before he got this note, but I think it is better for him. I guess this is the "not so hard way" of telling him that he has to move on, and be somewhere else. Maybe that somewhere else is the place where he mentioned he wanted to go.
+Maybe sooner or later, he would feel ok with this. Right now, he is just thinking that maybe this is the kind of push he needs to get to that concrete decision of finally leaving. He was still holding back before he got this note, but I think it is better for him. I guess this is the "not so hard way" of telling him that he has to move on, and be somewhere else. Maybe that somewhere else is the place where he mentioned he wanted to go. 
 
-Goodluck to you my friend. You can do it. It is not like the end of the world. There is a lot more out there. 
+One realization that I got from this is that no matter how much effort you put in making sure that you are one hundred percent in good terms with all your colleagues and boss, there will always  be an instance that it won't. 
+
+Goodluck to you my friend. You can do it. It is not like the end of the world. There is a lot more out there.
