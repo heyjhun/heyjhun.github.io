@@ -17,7 +17,7 @@ It is a different one
 
 Something organized, something I cannot have when I am in that box
 
-You make me feel feather like, so light
+You make me feel feather-like, so light
 
 I hope it can always be like this, but no
 

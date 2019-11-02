@@ -27,6 +27,6 @@ Some of the key takeaways which I somehow managed to remember are the following:
 
 8. Do not just rely in installing plugins if you want to become a full stack Wordpress Developer.
 
-These are just basic rules or good practices that I remember which I think would really make sense when working as a Wordpress Developer. 
+These are just basic rules or good practices that I remember which I think would make sense when working as a Wordpress Developer. 
 
-If you want to dig more some of the best practices for wordpress development, the speaaker also left us a reference where we can find something useful. Just search on Google: Coding Standards Wordpress.
+If you want to dig more some of the best practices for Wordpress development, the speaker also left us a reference where we can find something useful. Just search on Google: Coding Standards Wordpress.

@@ -11,7 +11,7 @@ I had a one on one with one of my "committee"
 
 I think I never met her until tonight or maybe I did
 
-Or maybe I have known her from before, but I cannot recollect the correct memoire
+Or maybe I have known her from before, but I cannot recollect the correct memory
 
 Maybe she is just coming back
 
@@ -21,7 +21,7 @@ I guess it was the right time that she talked to me
 
 It is not easy to accept what she said, but it is true
 
-She slapped me real big, it hurts
+She slapped me big, it hurts
 
 She said things that hit right through me, it was ego breaking
 
@@ -35,7 +35,7 @@ Now she is surfacing, good thing
 
 She was just right there listening all this time
 
-Do not leave mw now, not now
+Do not leave me now, not now
 
 Please visit me often, I will wait.
 

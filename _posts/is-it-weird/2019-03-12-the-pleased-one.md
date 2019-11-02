@@ -13,12 +13,12 @@ I know this committee long enough to understand him well.
 
 He has been there almost every time.
 
-He has this peaceful demeanor I always look forward to see.
+He has this peaceful demeanor I always look forward to seeing.
 
 Calm, composed, unshaken.
 
-I never thought I would see him in my dreams
+I never thought I would see him in my dreams.
 
-I mean he was always there, like he was the "default view" of almost everything that I do
+I mean he was always there like he was the "default view" of almost everything that I do.
 
-It was a small talk, the opposite of what always happen on a daily basis. Dream is most of the time weird.
+It was small talk, the opposite of what always happens daily. Most of the time, a dream is weird.
