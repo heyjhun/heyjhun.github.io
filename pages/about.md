@@ -12,5 +12,5 @@ Hi there! I'm JA. I’m a IT major turned BPO employee, turned web developer, tu
 You know, the bigger the dreams, the more effort we need. Check out [my personal website](https://www.jhunagustin.com/) for more information on my other projects, as well as some of my interests.
 
 
-![image-title-here](https://heyjhun.github.io/assets/img/hey-jhun.jpg){:class="img-responsive" alt="hey-jhun"}
+![image-title-here](/assets/img/hey-jhun.jpg){:class="img-responsive" alt="hey-jhun"}
 
