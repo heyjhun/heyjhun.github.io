@@ -8,7 +8,7 @@ image: corporate-world-might-not-be-for-everyone.jpg
 ---
 
 
-WWhen I was younger I always dream of working in an office. With a desk, computer in front of me, working on papers, having meetings. I always thought that when I work as an office boy, it is something that would make me happy. I will earn money, I will be a boss. 
+When I was younger I always dream of working in an office. With a desk, computer in front of me, working on papers, having meetings. I always thought that when I work as an office boy, it is something that would make me happy. I will earn money, I will be a boss. 
 
 Right after graduation, I transferred from my province to the city.  I found my first job, it is a BPO company. It was something close to what I thought of being a great office boy. I would take phone calls, answer their questions, update the system. Have lunch break with officemates, have a conversation, back to work. Repeat. 
 
@@ -26,7 +26,9 @@ I sent a resume to this Japanese Company. A chance to go to Japan. Wow, my eyes 
 
 After 1 day I got an email from the HR. Please come for an interview, and I did. The Japanese boss interviewed me together with the HR whom I thought was just an intern. She looked like a student.
 
-The interview went well. I was not confident I nailed it. The boss has so many questions making me feel like do I deserve to be hired. After a week, I got an email, you passed. You will undergo training. The day has passed since my first day. Everything went well. I did not even realize I was turning 5 years. I was so happy with the friends I made. I was happy with my achievements. It was a slow one, but this is based on my plan.  And by the way, I got that chance to be sent to Japan. Sugoi desu! Thankful for this company.
+The interview went well. I was not confident I nailed it. The boss has so many questions making me think that I will not get a slot for the training. 
+
+After a week, I got an email, you passed. You will undergo training. The day has passed since my first day. Everything went well. I did not even realize I was turning 5 years. I was so happy with the friends I made. I was happy with my achievements. It was a slow one, but this is based on my plan.  And by the way, I got that chance to be sent to Japan. Sugoi desu! Thankful for this company.
 
 Then again, I grew tired of the work. If it weren't for the people I was working with, I would have resigned earlier than my 5 years. This was the longest. But just so you know, this has been my happiest stay in a company. 
 
