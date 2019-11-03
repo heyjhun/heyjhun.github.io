@@ -2,3 +2,5 @@ Sitemap: https://heyjhun.github.io/robots.txt
 User-agent: *
 Disallow: /?
 Disallow: /?p
+Disallow: /page2/
+Disallow: /page3/
