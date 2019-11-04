@@ -3,7 +3,7 @@ layout: post
 title: "Thinking of Something New"
 author: "HeyJhun"
 categories: random-thoughts
-tags: [documentation,sample]
+description: Random thoughts about trying out something new. When facing with a conflicting choices and trying to weigh in the options to come up with a good decision.
 image: thinking-of-something-new.jpg
 ---
 

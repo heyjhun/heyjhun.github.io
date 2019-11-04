@@ -3,7 +3,7 @@ layout: post
 title: "Leave, we are broken people."
 author: "HeyJhun"
 categories: random-thoughts
-tags: [documentation,sample]
+description: “Leave, we are broken people.” He said that this line was written on a piece of tissue lying on his table one morning when he arrived in their office. He took a photo of it and showed to me.
 image: leave-we-are-broken-people.jpg
 ---
 
@@ -11,7 +11,9 @@ image: leave-we-are-broken-people.jpg
 
 A friend of mine told me a story about this.
 
-He said that this line was written as a note in a piece of tissue lying on his table one morning when he arrived in their office.
+He said that this line was written on a piece of tissue lying on his table one morning when he arrived in their office. He took a photo of it and showed to me. Natawa pa sya ng bahagya kasi hindi tama yong spelling ng broken (spelled as "brocken").
+
+![leave-we-are-broken-people-line-written-on-a-tissue](/assets/img/leave-we-are-broken-people-post-image.jpg){:class="img-responsive" alt="leave-we-are-broken-people-line-written-on-a-tissue"}
 
 He does not know who wrote it. There is no name written along with the line.
 
@@ -33,4 +35,4 @@ Maybe sooner or later, he would feel ok with this. Right now, he is just thinkin
 
 One realization that I got from this is that no matter how much effort you put in making sure that you are one hundred percent in good terms with all your colleagues and boss, there will always be an instance that it won’t.
 
-Good luck to you my friend. You can do it. It is not like the end of the world. There is a lot more out there.
+Good luck to you my friend. You can do it. It is not like the end of the world. There is a lot more out there to explore there.

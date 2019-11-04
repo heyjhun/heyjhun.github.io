@@ -7,16 +7,17 @@ disqus:
 google-ID: 'UA-146578922-2'
 
 menu:
-# - {name: 'Web Dev World', folder: 'pages', file: 'web-dev-world.html'}
+
 - {name: 'Stock Market Learnings', folder: 'pages', file: 'stock-market-learnings.html'}
+- {name: 'Web Dev World', folder: 'pages', file: 'web-dev-world.html'}
 - {name: 'Random Thoughts', folder: 'pages', file: 'random-thoughts.html'}
 - {name: 'Is It Weird?', folder: 'pages', file: 'is-it-weird.html'}
-- {name: 'Cheat Sheet', folder: 'pages', file: 'resources.html'}
 - {name: 'About', folder: 'pages', file: 'about.html'}
 
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
+- {icon: 'github', link: 'https://github.com/heyjhun'}
 - {icon: 'twitter', link: 'https://twitter.com/jhun2xagustin'}
 - {icon: 'facebook', link: 'https://www.facebook.com/jhun.agustin.28'}
 - {icon: 'instagram', link: 'https://instagram.com/j10percent'}

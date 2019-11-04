@@ -3,7 +3,7 @@ layout: post
 title: "Corporate world might not be for everyone, at least for me"
 author: "HeyJhun"
 categories: random-thoughts
-tags: [documentation,sample]
+description: Why is it not easy to find the right one for you? Is there a certain type of person that does not fit well in a company setting? Maybe I am just thinking well enough. Maybe my mind is wired this way. Finding a working environment that fits me well is time-consuming. After 8 years of being in the work-force, I am not even close to my dream. Now I am thinking, the corporate world is not for everyone.
 image: corporate-world-might-not-be-for-everyone.jpg
 ---
 
