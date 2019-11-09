@@ -3,6 +3,7 @@ layout: post
 title: "Dime Sized Light"
 author: "Humanoid"
 categories: is-it-weird
+description: Random thoughts about losing my interest in something or maybe it is not the right interest to do and need to find another one.
 tags: [documentation,sample]
 image: dime-sized-light.jpg
 ---

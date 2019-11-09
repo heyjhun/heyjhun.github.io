@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Web Dev World
+description: Web Dev World is where I share my learnings related to web development. Content Management System, programming languages like PHP and Javascript. A framework like Laravel. Even the simplest HTML. Hosting and server. 
 ---
+
 {% for post in site.categories.web-dev-world %}
   <a href="{{ site.github.url }}{{ post.url }}">
     <div class="featured-posts" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"{% endif %}>

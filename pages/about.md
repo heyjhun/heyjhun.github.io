@@ -5,7 +5,7 @@ author: "Humanoid"
 categories: resources
 tags: [sample]
 image: beach-1.jpg
-description: A little something about Jhun Agustin. Just a little because he is not yet used to writing.
+description: A little something about Jhun Agustin. Just a little because he is not yet used to sharing and writing.
 ---
 
 Hi there! I'm Jhun. I’m an IT major turned BPO employee, turned Web Developer, turned Financial Consultant. Ever since I first learned how to do website development, I have pursued it as a career. As of this moment, I juggle my time being a Financial Consultant and a Web Developer. 

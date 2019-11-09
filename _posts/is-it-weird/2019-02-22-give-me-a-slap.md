@@ -3,6 +3,7 @@ layout: post
 title: "Give me a Slap"
 author: "Humanoid"
 categories: is-it-weird
+description: Random thoughts about split personality. A friend who is experiencing this seems like going through a phase where he wants to do something else instead of what he currently does.
 tags: [documentation,sample]
 image: give-me-a-slap.jpg
 ---
