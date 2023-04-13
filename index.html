@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Jhun Agustin | WordPress Web Developer, Web Editor</title>
-<meta name="description" content="Jhun Agustin's portfolio page. Created using HTML, CSS, a little JS.">
+<title>Jhun Agustin | Welcome to my portfolio website..</title>
+<meta name="description" content="Jhun Agustin's portfolio website.">
 <meta name="author" content="Jhun Agustin">
 
 <!-- Favicons
@@ -18,13 +18,21 @@
 <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+<!-- Contact -->
+<script async src="js/contact.js"></script>
+
 <!-- Stylesheet
     ================================================== -->
 <link rel="stylesheet" type="text/css"  href="css/style.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,12 +49,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-MHZH6WV');</script>
 <!-- End Google Tag Manager -->
+
+
+
 </head>
+
 <body>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHZH6WV"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+
 <!-- Header -->
 <header id="header">
   <div class="intro">
@@ -56,9 +69,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="col-xs-12 col-md-12">
             <div class="intro-text">
               <div class="hero-container">
-                <h1>Jhun Agustin</h1>
-                <p>WordPress Web Developer | Web Editor, Blogger</p>
-                <a href="#portfolio" class="btn btn-custom btn-lg page-scroll">Portfolio</a> <a href="#contact" class="btn btn-custom btn-lg page-scroll">About Me</a> 
+                <h1 class="theme-headline">Jhun Agustin</h1>
+                <p>website developer atbp</p>
+                <div class="social">
+                  <ul class="list-inline">
+                    <li><a target="blank" href="https://ph.linkedin.com/in/jhun-agustin"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a target="blank" href="https://twitter.com/jhun2xagustin"><i class="fa fa-twitter"></i></a></li>
+                    <li><a target="blank" href="https://github.com/jhun2xxx"><i class="fa fa-github"></i></a></li>
+                  </ul>
+                </div>
+                <p class="theme-cta">
+                  <a href="#portfolio" class="btn btn-custom btn-lg page-scroll btn-theme">Projects</a> 
+                  <a href="#contact-me" class="btn btn-custom btn-lg page-scroll btn-theme">Contact</a> 
+                </p>
+
               </div>
             </div>
           </div>
@@ -69,38 +93,81 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </header>
 
 <!-- Portfolio Section -->
-<div id="portfolio">
+<div id="portfolio" class="section-container portfolio-container">
+
   <div class="container">
-    <h2>Portfolio</h2>
-
+    <h2 class="section-h2">Portfolio. <span>Some of my projects.</span></h2>
     <div class="col-md-4">
       <div class="section-title">
-        <h3><a target="_blank" href="https://jhun2xxx.github.io/cross-roads/">Cross+Roads</a></h3>
+        <h3><a class="portfolio-link" target="_blank" href="https://jhun2xxx.github.io/cross-roads/">Cross+Roads <i class="fa fa-link" aria-hidden="true"></i></a></h3>
         <div class="port-cont"> 
-          <p>My very first project during coding bootcamp that focuces on the best practices of HTML, CSS and bootstrap, and the responsive web design or mobile first approach.</p>
-          <img src="img/cross-roads-mock-up-generated-image.jpg">
-        </div>
-      </div>
-    </div>
-
-
-    <div class="col-md-4">
-      <div class="section-title">
-        <h3>HeyJhun</h3>
-        <div class="port-cont"> 
-          <p>A personal website created via JEKYLL, the static website generator of Ruby. The focus on this project is more on the markup language and manual meta data tagging.</p>
-          <img src="img/heyjhun-mock-up-generated-image.jpg">
+          <img src="img/cross-roads-mock-up-generated-image-transparent.png" alt="Cross Roads Blog" title="Cross Roads Blog">
+          <p class="port-description">My very first project during coding bootcamp that focuces on the best practices of HTML, CSS and bootstrap, and the responsive web design or mobile first approach.</p>
+          <p class="tech-tags">
+            <span class="tech-html">html</span>
+            <span class="tech-css">css</span>
+            <span class="tech-bootstrap">bootstrap</span>
+          </p>
         </div>
       </div>
     </div>
 
     <div class="col-md-4">
       <div class="section-title">
-        <h3><a target="_blank" href="https://www.pinoytrip.com/">Pinoy Trip Blog Manila</a></h3>
+        <h3><a class="portfolio-link" href="#">HeyJhun <i class="fa fa-link" aria-hidden="true"></i></a></h3>
         <div class="port-cont"> 
-          <p>A WordPress blog to showcase my custom theme development. From website development, deployment, content, and tracking. My web development and SEO knowledge in one project.</p>
-          <img src="img/pinoy-trip-blog-mock-up-generated-image.jpg">
+          <img src="img/heyjhun-mock-up-generated-image-transparent.png" alt="HeyJhun" title="HeyJhun">
+          <p class="port-description">A personal website created via JEKYLL, the static website generator of Ruby. The focus on this project is more on the markup language and manual meta data tagging.</p>
+          <p class="tech-tags">
+            <span class="tech-html">html</span>
+            <span class="tech-css">css</span>
+            <span class="tech-bootstrap">bootstrap</span>
+            <span class="tech-jekyll">jekyll</span>
+          </p>
         </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="section-title">
+        <h3><a class="portfolio-link" target="_blank" href="https://www.pinoytrip.com/">PinoyTrip Blog MNL <i class="fa fa-link" aria-hidden="true"></i></a></h3>
+        <div class="port-cont"> 
+          <img src="img/pinoy-trip-blog-mock-up-generated-image-transparent.png" alt="Pinoy Trip Blog Manila" title="Pinoy Trip Blog Manila">
+          <p class="port-description">A WordPress blog to showcase my custom theme development. From website development, deployment, content, and tracking. My web development and SEO knowledge in one project.</p>
+          <p class="tech-tags">
+            <span class="tech-html">html</span>
+            <span class="tech-css">css</span>
+            <span class="tech-bootstrap">bootstrap</span>
+            <span class="tech-wordpress">wordpress</span>
+            <span class="tech-seo">seo</span>
+            <span class="tech-ga">google analytics</span>
+            <span class="tech-gtm">google tag manager</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact-me" class="section-container contact-me-container">
+  <div class="container full-container">
+    <h2 class="section-h2">Contact. <span>Get in touch.</span></h2>
+    <div class="col-md-6 half-container">
+      <div class="other-info">
+        <img src="img/connect.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="contact-container half-container">
+        <form action="https://api.web3forms.com/submit" method="POST">  
+          <input type="hidden" name="access_key" value="4a08b4b2-e996-43bc-8a26-e14a6f0b80fc">    
+          <input name="name" type="text" class="feedback-input" placeholder="Name" required/>   
+          <input name="email" type="text" class="feedback-input" placeholder="Email" required/>
+          <textarea name="text" class="feedback-input" placeholder="Message" required></textarea>
+          <input type="hidden" name="redirect" value="https://web3forms.com/success">
+          <input class="btn btn-lg btn-block btn-theme page-scroll" type="submit" value="SUBMIT"/>
+        </form> 
       </div>
     </div>
 
@@ -108,60 +175,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 <!-- About Section -->
-<div id="contact">
-  <div class="container">
-    <h2>About Me</h2>
-    <div class="col-md-12">
-      <div class="section-title">
-        <div class="row"> <img src="img/jhun-agustin-about.jpg" class="img-responsive pull-left" alt="">
-          <p>Full time employee, part time web guy. Venturing in Web and Data Analytics.</p>
-          <p>For inquiries, projectst or collaborations please contact me by email at <a href="mailto:webguy@pinoytrip.com">webguy@pinoytrip.com</a>.</p>
-          <p>Check out my baby blog  <a target="_blank" href="https://www.pinoytrip.com/">pinoytrip.com</a>.</p>
-          <div class="social">
-            <ul>
-              <li><a target="blank" href="https://ph.linkedin.com/in/jhun-agustin"><i class="fa fa-linkedin"></i></a></li>
-              <li><a target="blank" href="https://twitter.com/jhun2xagustin"><i class="fa fa-twitter"></i></a></li>
-              <li><a target="blank" href="https://github.com/jhun2xxx"><i class="fa fa-github"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-<!--     <div class="col-md-5 col-md-offset-1">
-      <div class="section-title">
-        <p>For inquiries or collaborations please contact me by email at <a href="mailto:webguy@pinoytrip.com">webguy@pinoytrip.com</a> or fill out the form below.</p>
-      </div>
-      <form name="sentMessage" id="contactForm" novalidate>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-          <p class="help-block text-danger"></p>
-        </div>
-        <div id="success"></div>
-        <button type="submit" class="btn btn-default btn-lg">Send Message</button>
-      </form>
-    </div>
-  </div> -->
-</div>
+
 
 <div id="footer">
   <div class="container">
-    <p>&copy; 2022 Jhun Agustin. All rights reserved.</p>
+    <div class="row">
+      <div class="col-md-2 col-sm-12 col-xs-12">
+         <p><img src="img/jhun-agustin-about.jpg" class="img-responsive author-img" alt=""></p>
+      </div>
+      <div class="col-md-7 col-sm-12 col-xs-12">
+        <p>Full time employee, part time web guy. Venturing in web and data analytics.</p>
+        <p>For inquiries, project or collaborations, send me an email at <a href="mailto:webguy@pinoytrip.com">webguy@pinoytrip.com</a>.</p>
+        <div class="social">
+          <ul class="list-inline">
+            <li><a target="blank" href="https://ph.linkedin.com/in/jhun-agustin"><i class="fa fa-linkedin"></i></a></li>
+            <li><a target="blank" href="https://twitter.com/jhun2xagustin"><i class="fa fa-twitter"></i></a></li>
+            <li><a target="blank" href="https://github.com/jhun2xxx"><i class="fa fa-github"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-12 col-xs-12">
+          <div class="social">
+            <p>Check out my baby blog  <a target="_blank" href="https://www.pinoytrip.com/">pinoytrip.com</a>.</p>
+            <p><a title="Opens in new tab - pinoytrip.com" href="https://www.pinoytrip.com/" target="_blank"><img alt="Pinoy Trip Blog logo" src="img/cropped-pinoytrip-blog-manila-rebrand.png"></a></p>
+          </div>
+      </div>
+    </div>
+
   </div>
+
+
 </div>
+
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
 <script type="text/javascript" src="js/bootstrap.js"></script> 
 <script type="text/javascript" src="js/SmoothScroll.js"></script> 
