@@ -88,7 +88,7 @@ body, html {
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
      padding: 10px;
-     font-size: 40px;
+     font-size: 45px;
      text-transform: uppercase;
      animation: fadeIn 5s;
 }
@@ -404,9 +404,11 @@ body, html {
      margin: 20px 0;
 }
  .port-description {
-     min-height: 130px;
-     color: #fff;
-     font-family: 'Montserrat';
+	min-height: 130px;
+    color: #fff;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 12px;
 }
  .section-h2 {
      color: #fff;
@@ -485,6 +487,15 @@ body, html {
  .social img {
      width: 125px;
 }
+img.seo-image {
+    width: 500px;
+}
+.seo-port {
+    min-height: 200px;
+}
+.seo-port .portfolio-link::after {
+    top: 20%;
+}
  @keyframes fadeIn {
      0% {
          opacity: 0;
@@ -531,24 +542,3 @@ body, html {
      line-height: 150%;
      resize:vertical;
 }
-/*[type="submit"] {
-     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-     width: 100%;
-     background:#CC6666;
-     border-radius:5px;
-     border:0;
-     cursor:pointer;
-     color:white;
-     font-size:24px;
-     padding-top:10px;
-     padding-bottom:10px;
-     transition: all 0.3s;
-     margin-top:-4px;
-     font-weight:700;
-}
-*/
-/*[type="submit"]:hover {
-     background:#CC4949;
-}
-*/
- 
