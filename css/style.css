@@ -137,6 +137,7 @@ body, html {
  .intro {
      display: table;
      width: 100%;
+     height: 100%;
      padding: 0;
      background-color: #e5e5e5;
      -webkit-background-size: cover;
@@ -146,6 +147,7 @@ body, html {
 }
  .intro .overlay {
      background-color: #0b0b0b;
+     height: 100%;
 }
  .intro .fa {
      font-size: 30px;
@@ -169,7 +171,7 @@ body, html {
      font-weight: bold;
 }
  header {
-     min-height: 100%;
+      height: 100%;
 }
  header .intro-text {
      padding-top: 150px;
