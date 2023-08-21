@@ -506,9 +506,9 @@ img.seo-image {
 .seo-port {
     min-height: 200px;
 }
-.seo-port .portfolio-link::after {
+/* .seo-port .portfolio-link::after {
     top: 20%;
-}
+} */
  @keyframes fadeIn {
      0% {
          opacity: 0;
