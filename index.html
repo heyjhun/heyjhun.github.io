@@ -1,267 +1,601 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Jhun Agustin - Website Developer, Webmaster</title>
-<meta name="title" content="Jhun Agustin - Website Developer, Webmaster">
-<meta name="description" content="Jhun Agustin's website portfolio.">
-<meta name="author" content="Jhun Agustin">
+body, html {
+     font-family: 'Montserrat', sans-serif;
+     text-rendering: optimizeLegibility !important;
+     -webkit-font-smoothing: antialiased !important;
+     color: #fff;
+     font-weight: 400;
+     width: 100% !important;
+     height: 100% !important;
+}
+ h1 {
+     font-weight: 800;
+     margin-top: 0;
+     margin-bottom: 10px;
+}
+ h2 {
+     margin: 0 0 20px 0;
+     font-weight: 700;
+     font-size: 42px;
+     color: #333;
+     text-transform: uppercase;
+     font-family: 'Montserrat';
+     padding: 20px;
+}
+ h3 {
+     font-size: 18px;
+     text-transform: uppercase;
+     margin-bottom: 20px;
+     font-family: 'Reggae One', cursive;
+}
+ h4 {
+     font-size: 14px;
+     letter-spacing: 1px;
+     margin-bottom: 20px;
+     text-transform: uppercase;
+}
+ h5 {
+     text-transform: uppercase;
+     font-weight: 700;
+     line-height: 20px;
+}
+ p {
+     font-family: 'Roboto', sans-serif;
+     font-size: 15px;
+     font-weight: 400;
+     color: #888;
+}
+ p.intro {
+     margin: 12px 0 0;
+     line-height: 24px;
+}
+ a {
+     color: #222;
+}
+ a:hover, a:focus {
+     text-decoration: none;
+     color: #000;
+}
+ ul, ol {
+     list-style: none;
+}
+ ul, ol {
+     padding: 0;
+     webkit-padding: 0;
+     moz-padding: 0;
+}
+ hr {
+     height: 6px;
+     width: 70px;
+     position: relative;
+     background: #444;
+     margin-bottom: 20px;
+     margin-left: 0;
+     border: 0;
+}
+ .btn:active, .btn.active {
+     background-image: none;
+     outline: 0;
+     -webkit-box-shadow: none;
+     box-shadow: none;
+}
+ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+     outline: none;
+     outline-offset: none;
+}
+ .theme-headline {
+     font-family: 'Reggae One';
+     background-image: linear-gradient(to right,#f8ab5e 0,#f36961 20%,#a176c8 40%,#759beb 60%,#65beb3 80%,#70db96 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     padding: 10px;
+     font-size: 45px;
+     text-transform: uppercase;
+     animation: fadeIn 5s;
+}
+ .section-title {
+     min-height: 505px;
+     padding: 30px;
+     margin-bottom: 15px;
+     background: white;
+     position: relative;
+     overflow: hidden;
+     background-color: #16161605;
+     border-radius: 18px;
+     transition: all .3s cubic-bezier(0,0,.5,1);
+}
+ .section-title:hover {
+     box-shadow: 2px 4px 16px rgb(0 0 0 / 16%);
+     transform: scale3d(1.01,1.01,1.01);
+     background-color: rgba(255, 255, 255, .15);
+}
+ .btn-custom {
+     padding: 14px 20px;
+     margin: 10px;
+     min-width: 200px;
+}
+ .btn-theme {
+     font-family: 'Montserrat', sans-serif;
+     border-radius: 35px;
+     border: 1px solid #222;
+     color: #fff;
+     text-transform: uppercase;
+     background: #404040;
+     font-size: 14px;
+     font-weight: bold;
+     transition: all 0.5s;
+}
+ .btn-theme:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
+     color: #fff;
+     background-color: #49556578;
+     background-color: rgb(144 144 144 / 40%);
+     background-image: linear-gradient(to right,#f8ab5e 0,#f36961 20%,#a176c8 40%,#759beb 60%,#65beb3 80%,#70db96 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     transition: all 0.5s;
+}
+/* Header Section */
+ .intro {
+     display: table;
+     width: 100%;
+     height: 100%;
+     padding: 0;
+     background-color: #e5e5e5;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     background-size: cover;
+     -o-background-size: cover;
+}
+ .intro .overlay {
+     background-color: #0b0b0b;
+     height: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .intro .fa {
+     font-size: 30px;
+     color: #7d94e4;
+}
+ #footer .social .fa {
+     color: white;
+     font-size: 25px;
+     margin: 5px;
+}
+ #footer a {
+     color: #d0d0d0;
+}
+ .intro p {
+     text-transform: uppercase;
+     color: #b5b5b5;
+     margin: 10px 0 20px 0;
+     font-size: 14px;
+     font-family: 'Montserrat';
+     animation: fadeIn 7s;
+     font-weight: bold;
+}
+ header {
+      height: 100%;
+}
+ header .intro-text {
+     padding-top: 150px;
+     padding-bottom: 200px;
+     text-align: center;
+}
+ .section-container {
+     padding: 40px 0 100px 0;
+     min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Portfolio Section */
+ .portfolio-container {
+     background-color: #f5f5f7;
+     background-image: linear-gradient(to right,#f8ab5e 0,#f36961 20%,#a176c8 40%,#759beb 60%,#65beb3 80%,#70db96 100%);
+}
 
-<!-- OG -->
-<meta property="og:title" content="Jhun Agustin - Website Developer, Webmaster" />
-<meta property="og:url" content="https://jhun2xxx.github.io/" />
-<meta property="og:image" content="img/jhun2xxx-og-image.jpg" />
+.seo-container {
+    background-color: #f5f5f7;
+    background-image: linear-gradient(to right,#70db96 0,#65beb3 20%,#759beb 40%,#a176c8 60%,#f36961 80%,#f8ab5e 100%);
+}
+ .contact-me-container {
+     background-color: #fcfcfc;
+}
+ .contact-me-container h2 {
+     color: #4a4a4a;
+}
+ .categories {
+     margin-bottom: 80px;
+}
+ ul.cat li {
+     display: inline-block;
+}
+ ol.type li {
+     display: inline-block;
+     margin-right: 20px;
+}
+ ol.type li a {
+     font-family: 'Montserrat', sans-serif;
+     color: #444;
+     font-size: 14px;
+     padding: 10px 20px;
+     border: 2px solid #444;
+     border-radius: 0;
+     text-transform: uppercase;
+}
+ ol.type li a.active {
+     background: #444;
+     color: #eee;
+}
+ ol.type li a:hover {
+     background: #444;
+     color: #eee;
+}
+ .isotope-item {
+     z-index: 2 
+}
+ .isotope-hidden.isotope-item {
+     z-index: 1 
+}
+ .isotope, .isotope .isotope-item {
+    /* change duration value to whatever you like */
+     -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+     transition-duration: 0.8s;
+}
+ .isotope-item {
+     margin-right: -1px;
+     -webkit-backface-visibility: hidden;
+     backface-visibility: hidden;
+     padding: 0 10px;
+}
+ .isotope {
+     -webkit-backface-visibility: hidden;
+     backface-visibility: hidden;
+     -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+     transition-property: height, width;
+}
+ .isotope .isotope-item {
+     -webkit-backface-visibility: hidden;
+     backface-visibility: hidden;
+     -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property: -moz-transform, opacity;
+     transition-property: transform, opacity;
+}
+ .portfolio-item {
+     margin: 10px 0;
+     -webkit-transition: all 0.5s ease-out;
+     -moz-transition: all 0.5s ease-out;
+     -ms-transition: all 0.5s ease-out;
+     -o-transition: all 0.5s ease-out;
+     transition: all 0.5s ease-out;
+}
+ .portfolio-item .hover-bg {
+     overflow: hidden;
+     position: relative;
+}
+ .hover-bg .hover-text {
+     position: absolute;
+     text-align: center;
+     margin: 0 auto;
+     color: #333;
+     background: rgba(255, 255, 255, 0.75);
+     height: 100%;
+     width: 100%;
+     opacity: 0;
+     transition: all 0.5s;
+}
+ .hover-bg .hover-text .overlay-caption {
+     display: table;
+     height: 100%;
+     width: 100%;
+}
+ .hover-bg .hover-text .overlay-caption .overlay-content {
+     display: table-cell;
+     vertical-align: middle;
+}
+ .hover-bg:hover .hover-text {
+     opacity: 1;
+}
+/* Contact Section */
+ #contact {
+     padding: 60px 0 60px 0;
+     background: #262626;
+     min-height: 100%;
+}
+ #contact h2 {
+     font-weight: 600;
+     color: #fff;
+     margin: 60px 0;
+}
+ .author-img {
+     width: 95px;
+     border-radius: 75px;
+}
+ #contact p {
+     color: #666;
+     margin-bottom: 20px;
+     line-height: 24px;
+}
+ .contact-me-container .social {
+     margin-top: 40px;
+}
+ .contact-me-container .social ul li {
+     display: inline-block;
+     margin-right: 20px;
+}
+ .contact-me-container .social i.fa {
+     font-size: 26px;
+     padding: 4px;
+     color: #777;
+     transition: all 0.3s;
+}
+ .contact-me-container .social i.fa:hover {
+     color: #eee;
+}
+ #contact form {
+     padding: 0;
+}
+ #contact .text-danger {
+     color: #cc0033;
+     text-align: left;
+}
+ label {
+     font-size: 12px;
+     font-weight: 400;
+     float: left;
+}
+ #contact .form-control {
+     display: block;
+     width: 100%;
+     padding: 6px 12px;
+     font-size: 15px;
+     font-weight: 400;
+     line-height: 1.42857143;
+     color: #aaa;
+     background-color: #444;
+     background-image: none;
+     border: 0;
+     border-radius: 0;
+     -webkit-box-shadow: none;
+     box-shadow: none;
+     -webkit-transition: none;
+     -o-transition: none;
+     transition: none;
+}
+ #contact .form-control:focus {
+     border-color: #999;
+     outline: 0;
+     -webkit-box-shadow: transparent;
+     box-shadow: transparent;
+}
+ .form-control::-webkit-input-placeholder {
+     color: #777;
+}
+ .form-control:-moz-placeholder {
+     color: #777;
+}
+ .form-control::-moz-placeholder {
+     color: #777;
+}
+ .form-control:-ms-input-placeholder {
+     color: #777;
+}
+ #contact .btn-default {
+     font-weight: 400;
+     color: #666;
+     background-color: transparent;
+     border: 2px solid #666;
+     padding: 10px 20px;
+     margin: 0;
+     font-size: 15px;
+     border-radius: 0;
+     margin-top: 20px;
+     text-transform: uppercase;
+     transition: all 0.3s;
+}
+ #contact .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
+     background-color: #666;
+     color: #999;
+}
+/* Footer Section*/
+ #footer {
+     background: #262626;
+     padding: 25px 0;
+}
+ #footer p {
+     font-size: 12px;
+     color: #666;
+     font-family: 'Montserrat';
+}
+ div#contact a {
+     color: #cec4c4;
+}
+ .port-cont img {
+     width: 100%;
+     margin: 20px 0;
+}
+ .port-description {
+	min-height: 130px;
+    color: #fff;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 12px;
+}
+ .section-h2 {
+     color: #fff;
+}
+ .section-h2 span {
+     font-size: 30px;
+}
+ h3 a {
+     color: white;
+}
+ p.tech-tags span {
+     padding: 6px;
+     margin: 0 2px;
+     color: #fff;
+     text-transform: uppercase;
+     font-size: 9px;
+     font-family: 'Reggae One';
+     border-radius: 6px;
+     line-height: 35px;
+}
+ .tech-bootstrap {
+     background: #a176c8;
+}
+ .tech-css {
+     background: #f36961;
+}
+ .tech-html {
+     background: #f8ab5e;
+}
+ .tech-seo {
+     background: #759beb;
+}
+ .tech-javascript {
+     background: #65beb3;
+}
+ .tech-wordpress {
+     background: #70db96;
+}
+ .tech-jekyll {
+     background: #c91838;
+}
+ .tech-ga {
+     background: #f8df5e;
+}
+ .tech-gtm {
+     background-color: #b79a00;
+}
+ .hero-container {
+     padding: 30px;
+}
+ .theme-cta {
+     position: relative;
+     top: 40px;
+}
+ .portfolio-link:after {
+     position: absolute;
+     content: "";
+     height: 2px;
+     background-color: #ffffffcf;
+     width: 100%;
+     margin-left: 15px;
+     top: 12%;
+}
+ .portfolio-link:hover {
+     color: #ffffffcf;
+}
+ .portfolio-link:hover:after {
+     background-color: #ffffffcf;
+}
+ .other-info {
+     text-align: center;
+}
+ .other-info img {
+     width: 320px;
+}
+ .social img {
+     width: 125px;
+}
+img.seo-image {
+    width: 100%;
+}
+.seo-port {
+    min-height: 200px;
+}
+/* .seo-port .portfolio-link::after {
+    top: 20%;
+} */
+ @keyframes fadeIn {
+     0% {
+         opacity: 0;
+    }
+     100% {
+         opacity: 1;
+    }
+}
+ @media (max-width: 576px) {
+     #footer {
+         text-align: center;
+         display: block;
+    }
+     .author-img {
+         margin: 18px auto;
+    }
+    .right-half {
+        margin-top: 15px;
+    }
+}
+/* Contact form style */
+ form {
+     width: 100%;
+     padding: 0 30px;
+}
+ .feedback-input {
+     color:#989898;
+     font-family: Montserrat, Arial, sans-serif;
+     font-weight:500;
+     font-size: 14px;
+     border-radius: 5px;
+     line-height: 22px;
+     background-color: transparent;
+     border: 1px solid #e8e8e8;
+     transition: all 0.3s;
+     padding: 13px;
+     margin-bottom: 15px;
+     width:100%;
+     box-sizing: border-box;
+     outline:0;
+}
+ .feedback-input:focus {
+     border:1px solid #a1a1a1;
+}
+ textarea {
+     height: 150px;
+     line-height: 150%;
+     resize:vertical;
+}
 
-<!-- Favicons -->
-<link rel="shortcut icon" href="img/fav/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon" href="img/fav/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
-<!-- Bootstrap -->
-<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+/* SEO */
+.seo-port .port-cont {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+}
 
-<!-- Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+.seo-port .port-cont .seo-image {
+}
 
-<!-- Contact -->
-<script async src="js/contact.js"></script>
+.seo-port .port-description {
+    min-height: 70px;
+}
 
-<!-- Stylesheet -->
-<link rel="stylesheet" type="text/css"  href="css/style.css">
+.modal-content {
+    background-color: transparent;
+}
+.right-half {
+    align-items: center;
+    display: grid;
+}
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #FF9800;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: 1.2;
+}
 
+.modal-header .close {
+    margin-top: -10px;
+}
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NSVDD0K65N"></script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MHZH6WV');</script>
-<!-- End Google Tag Manager -->
-</head>
-
-<body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHZH6WV"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-<!-- Header -->
-<header id="header">
-  <div class="intro">
-    <div class="overlay">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-md-12">
-            <div class="intro-text">
-              <div class="hero-container">
-                <h1 class="theme-headline">Jhun Agustin</h1>
-                <p>sometimes web developer, most of time delivery boy</p>
-                <div class="social">
-                  <ul class="list-inline">
-                    <li><a target="blank" href="https://ph.linkedin.com/in/jhun-agustin"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a target="blank" href="https://twitter.com/jhun2xagustin"><i class="fa fa-twitter"></i></a></li>
-                    <li><a target="blank" href="https://github.com/jhun2xxx"><i class="fa fa-github"></i></a></li>
-                  </ul>
-                </div>
-                <p class="theme-cta">
-                  <a href="#portfolio" class="btn btn-custom btn-lg page-scroll btn-theme">Web</a>
-                  <a href="#seo" class="btn btn-custom btn-lg page-scroll btn-theme">SEO</a> 
-                  <a href="#contact-me" class="btn btn-custom btn-lg page-scroll btn-theme">Say Hi</a> 
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-
-<!-- Portfolio Section -->
-<div id="portfolio" class="section-container portfolio-container">
-  <div class="container">
-    <h2 class="section-h2">Portfolio. <span>Some of my projects.</span></h2>
-    <div class="col-md-4">
-      <div class="section-title">
-        <h3><a class="portfolio-link" target="_blank" href="https://jhun2xxx.github.io/cross-roads/">Cross+Roads <i class="fa fa-link" aria-hidden="true"></i></a></h3>
-        <div class="port-cont"> 
-          <img src="img/cross-roads-mock-up-generated-image-transparent.png" alt="Cross Roads Blog" title="Cross Roads Blog">
-          <p class="port-description">My very first project during web development bootcamp which focuces on the best practice usage of HTML, CSS, and Javascript. This also focuses on the responsive web design or mobile first approach.</p>
-          <p class="tech-tags">
-            <span class="tech-html">html</span>
-            <span class="tech-css">css</span>
-            <span class="tech-bootstrap">bootstrap</span>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="section-title">
-        <h3><a class="portfolio-link" href="#">HeyJhun <i class="fa fa-link" aria-hidden="true"></i></a></h3>
-        <div class="port-cont"> 
-          <img src="img/heyjhun-mock-up-generated-image-transparent.png" alt="HeyJhun" title="HeyJhun">
-          <p class="port-description">A personal website created via JEKYLL, the static website generator of Ruby. The focus on this project is more on the markup language and manual meta data tagging.</p>
-          <p class="tech-tags">
-            <span class="tech-html">html</span>
-            <span class="tech-css">css</span>
-            <span class="tech-bootstrap">bootstrap</span>
-            <span class="tech-jekyll">jekyll</span>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="section-title">
-        <h3><a class="portfolio-link" target="_blank" href="https://www.pinoytrip.com/">PinoyTrip Blog MNL <i class="fa fa-link" aria-hidden="true"></i></a></h3>
-        <div class="port-cont"> 
-          <img src="img/pinoy-trip-blog-mock-up-generated-image-transparent.png" alt="Pinoy Trip Blog Manila" title="Pinoy Trip Blog Manila">
-          <p class="port-description">A WordPress blog born out of custom theme development. It's a project combination of web development, deployment, content creation, SEO, and analytics.</p>
-          <p class="tech-tags">
-            <span class="tech-html">html</span>
-            <span class="tech-css">css</span>
-            <span class="tech-bootstrap">bootstrap</span>
-            <span class="tech-wordpress">wordpress</span>
-            <span class="tech-seo">seo</span>
-            <span class="tech-ga">google analytics</span>
-            <span class="tech-gtm">google tag manager</span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- SEO Portfolio Section -->
-<div id="seo" class="section-container portfolio-container seo-container">
-  <div class="container">
-    <h2 class="section-h2">SEO & Analytics. <span>First SEO baby.</span></h2>
-    <div class="col-md-12">
-      <div class="section-title seo-port">
-        <h3><a class="portfolio-link" target="_blank" href="">SEO and Analytics <i class="fa fa-link" aria-hidden="true"></i></a></h3>
-        
-          <div class="row">
-            <div class="col-md-6">
-              <a type="button" class="enlarge-image" data-toggle="modal" data-target="#exampleModal">
-              <img class="seo-image" src="img/approved-google-adsense.PNG" alt="seo portfolio" title="seo portfolio">
-              </a>
-            </div>
-
-
-            <div class="col-md-6 right-half">
-              <p class="port-description">My hands on experience in ranking a website created from ground up. The website is developed with best structure suitable for SEO which helped gained stable to growing organic searches and got approved for Google Adsense in a span of 8 months.</p>
-              <p class="tech-tags">
-                <span class="tech-seo">search engine optimization</span>
-                <span class="tech-ga">google analytics</span>
-                <span class="tech-wordpress">google search console</span>
-                <span class="tech-gtm">semrush</span>
-              </p>
-            </div>
-      
-          
-        </div>
-
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-          <img class="seo-image" src="img/approved-google-adsense-full.png" alt="seo portfolio" title="seo portfolio">
-      </div>
-      <!-- <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div> -->
-    </div>
-  </div>
-</div>
-
-<!-- Contact Section -->
-<div id="contact-me" class="section-container contact-me-container">
-  <div class="container full-container">
-    <h2 class="section-h2">Contact. <span>Get in touch.</span></h2>
-
-    <div class="col-md-6">
-      <div class="contact-container half-container">
-        <form action="https://api.web3forms.com/submit" method="POST">  
-          <input type="hidden" name="access_key" value="4a08b4b2-e996-43bc-8a26-e14a6f0b80fc">    
-          <input name="name" type="text" class="feedback-input" placeholder="Name" required/>   
-          <input name="email" type="email" class="feedback-input" placeholder="Email" required/>
-          <textarea name="text" class="feedback-input" placeholder="Message" required></textarea>
-          <input type="hidden" name="redirect" value="https://web3forms.com/success">
-          <input class="btn btn-lg btn-block btn-theme page-scroll" type="submit" value="SUBMIT"/>
-        </form> 
-      </div>
-    </div>
-    <div class="col-md-6 half-container">
-      <div class="other-info">
-        <img src="img/connect.png" alt="image of envelope in different colors">
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- About Section -->
-<div id="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-2 col-sm-12 col-xs-12">
-         <p><img src="img/jhun-agustin-about.jpg" class="img-responsive author-img" alt=""></p>
-      </div>
-      <div class="col-md-7 col-sm-12 col-xs-12">
-        <p>Full time employee, part time web guy. Venturing in web and data analytics.</p>
-        <p>For inquiries, project or collaborations, send me an email at <a href="mailto:webguy@pinoytrip.com">webguy@pinoytrip.com</a>.</p>
-        <div class="social">
-          <ul class="list-inline">
-            <li><a target="blank" href="https://ph.linkedin.com/in/jhun-agustin"><i class="fa fa-linkedin"></i></a></li>
-            <li><a target="blank" href="https://twitter.com/jhun2xagustin"><i class="fa fa-twitter"></i></a></li>
-            <li><a target="blank" href="https://github.com/jhun2xxx"><i class="fa fa-github"></i></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-12 col-xs-12">
-          <div class="social">
-            <p>Check out my baby blog  <a target="_blank" href="https://www.pinoytrip.com/">pinoytrip.com</a>.</p>
-            <p><a title="Opens in new tab - pinoytrip.com" href="https://www.pinoytrip.com/" target="_blank"><img alt="Pinoy Trip Blog logo" src="img/cropped-pinoytrip-blog-manila-rebrand.png"></a></p>
-          </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
-<script type="text/javascript" src="js/bootstrap.js"></script> 
-<script type="text/javascript" src="js/SmoothScroll.js"></script> 
-<script type="text/javascript" src="js/jquery.isotope.js"></script> 
-<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="js/contact_me.js"></script> 
-<script type="text/javascript" src="js/main.js"></script>
-</body>
-</html>
+.enlarge-image {
+    cursor: pointer;
+}
