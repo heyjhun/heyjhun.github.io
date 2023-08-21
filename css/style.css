@@ -525,6 +525,9 @@ img.seo-image {
      .author-img {
          margin: 18px auto;
     }
+    .right-half {
+        margin-top: 15px;
+    }
 }
 /* Contact form style */
  form {
